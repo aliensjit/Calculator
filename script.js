@@ -110,6 +110,7 @@ function equate(){
 			break;
 	}
 	numInput.innerHTML = parseFloat(lastValue.toFixed(2));
+	lastValue = parseFloat(lastValue.toFixed(2));
 	check()
 	error()
 	operation = 0;
